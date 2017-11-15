@@ -1,0 +1,16 @@
+[class*='btn-'] {
+  font-size: 2em;
+  font-stdle: bold;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  margin: 1em;
+}
+
+body {
+  width: 300px;
+}

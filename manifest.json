@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "feed43.com form edit helper",
+  "description": "Import/Export JSON style configuration string to current feed edit page.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+      "tabs"
+  ],
+  "content_scripts": [
+    {
+        "matches": ["https://feed43.com/feed.html"],
+        "js": ["js/content-heavy-left.js"]
+    }
+   ]
+}
